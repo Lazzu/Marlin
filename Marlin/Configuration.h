@@ -483,14 +483,19 @@
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
   // Creality Ender-3
-  #define DEFAULT_Kp 21.12
-  #define DEFAULT_Ki 1.53
-  #define DEFAULT_Kd 73.09
+  //#define DEFAULT_Kp 21.12
+  //#define DEFAULT_Ki 1.53
+  //#define DEFAULT_Kd 73.09
 
   // V6 hotend
   //#define DEFAULT_Kp 35.62
   //#define DEFAULT_Ki 3.04
   //#define DEFAULT_Kd 104.32
+
+  // V6 Hotend with 40mm fan
+  #define DEFAULT_Kp 33.61
+  #define DEFAULT_Ki 2.83
+  #define DEFAULT_Kd 99.80
 
   // Ultimaker
   //#define DEFAULT_Kp 22.2
